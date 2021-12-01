@@ -1,5 +1,5 @@
-Advent of Code
-==============
+Advent of Code 2021
+===================
 
 Here you can find my solutions for [Advent of Code](https://adventofcode.com/) [2021](https://adventofcode.com/2021).
 
@@ -7,8 +7,10 @@ The solutions will be posted once the challenge is finished. Since it's my first
 
 Let's go!
 
+1. [Day 1](day01/README.md)
+
 About me
-----------
+--------
 
 I’m a freelance front-end developer from Sevilla. I love: Node, React and CSS3.
 
