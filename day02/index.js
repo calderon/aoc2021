@@ -1,7 +1,6 @@
 import InputReader from './src/input_reader.js';
 import InputParser from './src/input_parser.js';
 import Submarine from './src/submarine.js';
-import Order from './src/order.js';
 
 const main = async() => {
   try {
