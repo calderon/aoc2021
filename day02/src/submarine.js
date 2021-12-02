@@ -2,6 +2,7 @@ class Submarine {
   constructor() {
     this.horizontal = 0;
     this.depth = 0;
+    this.aim = 0;
   }
 
   execute(...orders) {
@@ -10,14 +11,15 @@ class Submarine {
 
   forward(units) {
     this.horizontal += units
+    this.depth += this.aim * units;
   }
 
   down(units) {
-    this.depth += units
+    this.aim += units
   }
 
   up(units) {
-    this.depth -= units
+    this.aim -= units
   }
 
   getInfo() {
