@@ -97,4 +97,4 @@ Consider sums of a three-measurement sliding window. How many sums are larger th
 Solution
 --------
 
-I've created a solution that can be reusable for any window size. If you run `node index` you will get the solution for part one, and if you run `node index 3` you will get solution for part two. My solution can be used for windows sizes between 1 and 9.
+I've created a solution that can be reusable for any window size. If you run `node index` you will get the solution for part one, and if you run `node index 3` you will get solution for part two. My solution can be used for windows sizes from 1.
