@@ -17,6 +17,15 @@ class Report {
       throw new Error(`Window cannot be superior to ${this._data.length - 1}`);
     }
 
+    /** @type {Array<SlidingWindow>} */
+    this.slidingWindows = this._buildSlidingWindows();
+  }
+
+    /**
+   * Returns an array with all sliding windows
+   * @return {Array<SlidingWindow>}
+   */
+  _buildSlidingWindows() {
     const slidingWindows = [];
 
     for (let index = 0; index < this._data.length - this._window + 1; index++) {
@@ -24,13 +33,12 @@ class Report {
         data: this._data,
         from: index,
         to: index + this._window
-      })
+      });
 
       slidingWindows.push(slidingWindow);
     }
 
-    /** @type {Array<SlidingWindow>} */
-    this.slidingWindows = slidingWindows;
+    return slidingWindows;
   }
 
   /**
