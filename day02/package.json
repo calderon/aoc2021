@@ -1,0 +1,14 @@
+{
+  "name": "day02",
+  "version": "1.0.0",
+  "description": "Advent of Code – Day 2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daniel Calderón Portillo",
+  "license": "ISC"
+}

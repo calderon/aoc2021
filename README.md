@@ -8,6 +8,7 @@ The solutions will be posted once the challenge is finished. Since it's my first
 Let's go!
 
 1. [Day 1](day01/README.md)
+2. [Day 2](day02/README.md)
 
 About me
 --------
