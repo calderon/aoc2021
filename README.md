@@ -9,6 +9,8 @@ Let's go!
 
 1. [Day 1](day01/README.md)
 2. [Day 2](day02/README.md)
+3. [Day 3](day03/README.md)
+   - [Part 1](day03/part1/README.md))
 
 About me
 --------
