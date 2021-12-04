@@ -9,7 +9,7 @@ class InputReader {
    * @param {string} path - Relative path to file
    * @return {Promise<String>} The data in array format
    */
-  static async get(path) {
+   static async get(path) {
     try {
       const data = readFileSync(path, 'utf8');
 
