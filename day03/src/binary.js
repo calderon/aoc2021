@@ -21,7 +21,7 @@ class Binary {
     return this.number.length;
   }
 
-  getPosition(index) {
+  getBit(index) {
     return this.number[index];
   }
 }

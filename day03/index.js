@@ -12,7 +12,7 @@ const main = async() => {
     const input = await InputReader.get(path);
     const inputParsed = new InputParser(input);
 
-    const diagnosticReport = new DiagnosticReport(inputParsed);
+    const diagnosticReport = new DiagnosticReport(inputParsed.data);
 
     diagnosticReport.showInfo()
   } catch (error) {
