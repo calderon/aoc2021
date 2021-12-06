@@ -11,6 +11,7 @@ Let's go!
 2. [Day 2](day02/README.md)
 3. [Day 3](day03/README.md)
 4. [Day 4](day04/README.md)
+5. [Day 5](day05/README.md)
 
 About me
 --------
